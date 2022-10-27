@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container {
+  background: url(../src/assete/home.jpg) no-repeat ;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items:center;
+  justify-content: center;
+}
+
+.component {
+  width: 700px;
+  min-height: 500px;
+  background: #fffffff5;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #ffffff5e;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 700px;
+  background: #ffffff;
+  margin-bottom: 2rem;
+  border-radius: 7px;
+}
+
+.Navbar a {
+  color:rgb(0, 102, 181);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.Navbar img {
+  max-width: 130px;
+}
+
+.clockIn {
+  margin: 120px auto;
+  width: 400px;
+  text-align: center;
+  border: 2px solid #000;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.clockIn p {
+  margin: 10px 0 30px 0;
+}
+
+.clockIn a {
+  color: #fff;
+  background: rgb(0, 102, 181);
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+}
+
+.clockIn > input {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 0 0 0;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+}
+
+.grid div {
+  cursor: pointer;
+}
+
+.admin {
+  width: 400px;
+  padding: 20px 30px;
+}
+
+.admin .check {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px 0;
+}
+
+.admin form > input, .admin button {
+  width: 100%;
+  margin: 10px 0 20px 0;
+  padding: 7px;
+  font-size: 16px;
+  outline: none;
+}
+
+.admin button {
+  cursor: pointer;
+  background:#0066b5;
+  border: none;
+  color: #fff;
+
+}
