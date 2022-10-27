@@ -5,8 +5,8 @@ const Home = () => {
     <div className="home component">
       <div className="clockIn">
         <h2>Welcome to TechCells</h2>
-        <p>Do you want to clock in/out</p>
-        <a href="/login">Clock in/out</a>
+        <p>Do you want to clock in</p>
+        <a href="/login">Clock in</a>
       </div>
     </div>
   )

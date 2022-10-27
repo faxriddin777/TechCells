@@ -60,7 +60,7 @@ a{
   margin: 10px 0 30px 0;
 }
 
-.clockIn a {
+.clockIn a, .ClockedBtn {
   color: #fff;
   background: rgb(0, 102, 181);
   padding: 10px 20px;
@@ -113,4 +113,18 @@ a{
   border: none;
   color: #fff;
 
+}
+
+.clocked {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.ClockedBtn {
+  cursor: pointer;
+  text-align: center;
+  width: 100px;
+  margin-top: 20px;
 }

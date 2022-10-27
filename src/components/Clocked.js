@@ -24,11 +24,11 @@ const Clocked = () => {
           <img src={Check} alt="check" /> You have clocked in successfully
         </p>
       </div>
-      <div style={{ display: "flex", justifyContent: "space-around" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", width: 400}}>
         <h2>Started time: </h2>
         <h2>{localStorage.getItem("startedTime")}</h2>
       </div>
-      <button onClick={clockedOut}>Clock out</button>
+      <button className="ClockedBtn" onClick={clockedOut}>Clock out</button>
     </div>
   );
 };
